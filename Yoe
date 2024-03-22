@@ -1,12 +1,25 @@
-- 👋 Hi, I’m @YOE1111
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("من صنع التوكتوكر quu30_", "Synapse")
+local Tab = Window:NewTab("البدايه")
+local Section = Tab:NewSection("حسابي quu30_")
+local Section = Tab:NewSection("ادعموني")
 
-<!---
-YOE1111/YOE1111 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+local Tab = Window:NewTab("سكربت البيوت")
+local Section = Tab:NewSection("ماب البيوت")
+Section:NewButton("سكربت", "السكربت", function()  print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+
+local Tab = Window:NewTab("سكربت طيران")
+local Section = Tab:NewSection("طيران")
+Section:NewButton("سكربت", "السكربت", function()  print("Clicked")loadstring(game:HttpGet('https://pastebin.com/raw/bhsb2SiQ'))()
+end)
+
+local Tab = Window:NewTab("سكربت اختفاء")
+local Section = Tab:NewSection("اختفاء")
+Section:NewButton("سكربت", "السكربت", function()  print("Clicked")loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Invisible%20Gui'))()
+end)
+
+local Tab = Window:NewTab("سكربت بلوكس فروت")
+local Section = Tab:NewSection("بلوكس فروت")
+Section:NewButton("سكربت", "السكربت", function()  print("Clicked")loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+end)
